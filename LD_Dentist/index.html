@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Care Landing Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="js/js.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Nav -->
+     <header class="row container">
+        <a href="#" class="logo"> <img src="Logo.png" alt=""></a>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+        <nav class="navigation row">
+            <ul class="row">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#testimonial">Testimonial</a></li>
+                <li>
+                    <a href="#" class="page-btn active toggleContact" onclick="toggleContact();">Book appointment</a>
+                    <div class="contactMenu row">
+                        <div class="contactMenu-content row flex container">
+                            <div>
+                                <h4>Book your visit</h4>
+                                <h4>NeproDental</h4>
+                                <form action="">
+                                    <div class="form row">
+                                        <div>
+                                            <label for="">Name</label>
+                                            <input type="text" name="" id="" placeholder="Name">
+                                        </div>
+                                        <div class="form row">
+                                            <label for="">Phone number</label>
+                                            <input type="tel" name="" id="" placeholder="Phone number">
+                                        </div>
+                                        <div class="form row">
+                                            <label for="">Select date</label>
+                                            <input type="date" name="" id="">
+                                        </div>
+                                        <div class="form row">
+                                            <label for="">Select Hour</label>
+                                            <select name="" id="">
+                                                <option value="0">10:00</option>
+                                                <option value="1">10:30</option>
+                                                <option value="2">11:00</option>
+                                                <option value="3">12:00</option>
+                                                <option value="4">12:30</option>
+                                            </select>
+                                        </div>    
+                                    </div>
+                                    <div>
+                                        <label for="">Select Service</label>
+                                            <select name="" id="">
+                                                <option value="0">Dental Care</option>
+                                                <option value="1">Dental Implant</option>
+                                                <option value="2">Dental Braces</option>
+                                                <option value="3">Teeth Whitening</option>
+                                                <option value="4">Paitient Safety</option>
+                                            </select>
+                                    </div>
+                                    <button type="submit" class="page-btn">Make an appointment</button>
+                                </form>
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+     </header>
+     <!-- end nav -->
+
+     <!-- hero section -->
+     <section class="hero row flex container">
+        <div class="hero-content">
+            <h1>We are ready to help & take care of your dental health</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, consequatur. Tempore non suscipit aut animi cupiditate blanditiis iure amet corrupti nulla minima, asperiores eum! Molestiae rem saepe dolorem voluptates distinctio.</p>
+              <a href="#" class="page-btn">Make an appointment</a>
+        </div>
+        <div class="hero-img"><img src="Design sem nome (24).png" alt=""></div>
+     </section>
+     <!-- end hero -->
+
+     <!-- about -->
+     <section class="about row flex container" id="about">
+        <div class="about-img row">
+            <img src="about1.png" alt="">
+            <!-- <img src="about2.png" alt="">
+            <img src="about3.png" alt=""> -->
+        </div>
+        <div class="about-content">
+            <h5>About us</h5>
+            <h2>Me have 15 years od experience in dental care services.</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio iste vitae unde voluptatem at accusantium minima! Delectus a omnis eveniet ab necessitatibus quaerat ad perferendis id, repellat eaque vel nihil?</p>
+            <a href="#" class="page-btn">Make an appointment</a>
+        </div>
+     </section>
+     <!-- end about -->
+
+     <!-- service -->
+     <section class="service container" id="service">
+        <div class="service-content row flex">
+            <div>
+                <h2>We provide a modern service care</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius esse iste fuga et sequi ut. Alias voluptas, vitae corrupti inventore quam architecto sint beatae aspernatur dolorem atque. Blanditiis, nobis quae.</p>
+            </div>
+            <div class="service-cards colum">
+                <div class="s-card">
+                    <img src="dental care.png" alt="">
+                    <h3>Dental Care</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere cupiditate</p>
+                    <a href="#" class="card-btn row">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
+                            <path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="s-card">
+                    <img src="1.png" alt="">
+                    <h3>Dental Implant</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere cupiditate</p>
+                    <a href="#" class="card-btn row">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
+                            <path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="s-card">
+                    <img src="2.png" alt="">
+                    <h3>Dental Braces</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere cupiditate</p>
+                    <a href="#" class="card-btn row">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
+                            <path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="s-card">
+                    <img src="03.png" alt="">
+                    <h3>Teeth Whintening</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere cupiditate</p>
+                    <a href="#" class="card-btn row">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
+                            <path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="s-card">
+                    <img src="4.png" alt="">
+                    <h3>Patient Safety</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere cupiditate</p>
+                    <a href="#" class="card-btn row">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
+                            <path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- end service -->
+
+     <!-- testimonial -->
+     <section class="testimonial" id="testimonial">
+        <div class="container">
+            <h2>What Patients say about us</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide row">
+                    <div class="slide-profile"><img src="Design sem nome (24).png" alt=""></div>
+                    <div>
+                        <h3>gread cop</h3>
+                        <div class="row">
+                            <img src="star.png" alt="">
+                            <img src="star.png" alt="">
+                            <img src="star.png" alt="">
+                            <img src="star.png" alt="">
+                            <img src="star.png" alt="">
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, doloribus. Veniam magni dolores nesciunt? Eligendi repudiandae maiores deleniti quaerat ex nisi non enim vitae? Eaque officiis enim sint earum perferendis?</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide row">
+                    <div class="slide-profile"><img src="Design sem nome (24).png" alt=""></div>
+                    <div>
+                        <h3>gread cop</h3>
+                        <div class="row">
+                            <!-- <img src="star.png" alt=""> -->
+                            <img src="star.png" alt="">
+                            <img src="star.png" alt="">
+                            <img src="star.png" alt="">
+                            <img src="star.png" alt="">
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, doloribus. Veniam magni dolores nesciunt? Eligendi repudiandae maiores deleniti quaerat ex nisi non enim vitae? Eaque officiis enim sint earum perferendis?</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide row">
+                    <div class="slide-profile"><img src="Design sem nome (24).png" alt=""></div>
+                    <div>
+                        <h3>gread cop</h3>
+                        <div class="row">
+                            <img src="star.png" alt="">
+                            <img src="star.png" alt="">
+                            <img src="star.png" alt="">
+                            <img src="star.png" alt="">
+                            <img src="star.png" alt="">
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, doloribus. Veniam magni dolores nesciunt? Eligendi repudiandae maiores deleniti quaerat ex nisi non enim vitae? Eaque officiis enim sint earum perferendis?</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+     </section>
+     <!-- end testimonial -->
+
+     <!-- contact -->
+     <section class="contact-body">
+        <div class="contact row container">
+            <div class="contact-content">
+                <h2>Ww are ready to serve your various dental problems.</h2>
+                <div class="contact-btns row">
+                    <a href="tel:0123456789">Call- 0123456789</a>
+                    <span>or</span>
+                    <a href="Book appointment">Book appointment</a>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- End contact -->
+
+     <!-- footer -->
+     <footer>
+        <div class="footer row container">
+            <div>
+                <a href="#" class="logo"> <img src="Logo.png" alt=""></a>
+                <p>Consultation service with the best dental doctor of all time.</p>
+                <div class="media-links row">
+                    <a href="#"><img src="facebook-circle-logo-24.png" alt=""></a>
+                    <a href="#"><img src="twitter-logo-24.png" alt=""></a>
+                    <a href="#"><img src="instagram-logo-24.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <h5>Contact us</h5>
+                <ul>
+                    <li>contact@neprodental.com</li>
+                    <li>0123456789</li>
+                    <li>2345, LK, Cibey 4567,jml</li>
+                </ul>
+            </div>
+        </div>
+        <p class="copy right">&copy; 2022. All rigth reserved 
+
+        </p>
+     </footer>
+     <!-- end footer -->
+</body>
+</html>
